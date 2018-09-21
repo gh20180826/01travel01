@@ -1,9 +1,9 @@
 var Person = require('./modules/Person');
 
-alert("Thingy-ma-bob?");
 
-var john = new Person("John Doe", "blue");
+
+var john = new Person("John Dope", "blue");
 john.greet();
 
-var jane = new Person("Jane Smith", "green");
+var jane = new Person("Jane Smithy", "green");
 jane.greet();
