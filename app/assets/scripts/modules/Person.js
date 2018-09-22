@@ -1,15 +1,16 @@
+/*
 function Person(fullName, favColor) {
    this.name = fullName;
    this.favoriteColor = favColor;
    this.greet = function() {
-      console.log("Zowwie, my name is " + this.name + " and my favorite color is " + this.favoriteColor + ".");
+      console.log("Darkbark, my name is " + this.name + " and my favorite color is " + this.favoriteColor + ".");
    }
 }
 
 module.exports = Person;
+*/
 
 
-/*
 class Person {
    constructor(fullName, favColor) {
       this.name = fullName;
@@ -17,9 +18,9 @@ class Person {
    }
 
    greet() {
-      console.log("Yellow-mon, my name is " + this.name + ", and my favorite color is " + this.favoriteColor +".");
+      console.log("Yellow-mon Yellow-mon, my name is " + this.name + ", and my favorite color is " + this.favoriteColor +".");
    }
 }
 
-module.exports = Person;
-*/
+/*module.exports = Person;*/
+export default Person;
