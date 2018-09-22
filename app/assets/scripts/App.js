@@ -1,4 +1,5 @@
-/*var Person = require('./modules/Person.js');*/
+/*
+//var Person = require('./modules/Person.js');
 import Person from "./modules/Person";
 
 
@@ -7,3 +8,7 @@ john.greet();
 
 var jane = new Person("Jane Smith", "orange");
 jane.greet();
+*/
+import MobileMenu from './modules/MobileMenu';
+
+var mobileMenu = new MobileMenu();

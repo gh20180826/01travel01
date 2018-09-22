@@ -8,9 +8,10 @@ function Person(fullName, favColor) {
 }
 
 module.exports = Person;
-*/
 
 
+
+//below is code thru vid 40
 class Person {
    constructor(fullName, favColor) {
       this.name = fullName;
@@ -18,9 +19,10 @@ class Person {
    }
 
    greet() {
-      console.log("Yellow-mon Yellow-mon, my name is " + this.name + ", and my favorite color is " + this.favoriteColor +".");
+      console.log("Ho Ho Ho, my name is " + this.name + ", and my favorite color is " + this.favoriteColor +".");
    }
 }
 
-/*module.exports = Person;*/
+//module.exports = Person;
 export default Person;
+*/
