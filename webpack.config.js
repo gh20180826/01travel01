@@ -7,14 +7,14 @@ module.exports = {
       filename: 'App.js'
    },
    module: {
-      rules: [
+      loaders: [
          {
+            test: /\.js$/,
             loader: 'babel-loader',
+            exclude: /node_modules/,
             query: {
                presets: ['es2015']
-            },
-            test: /\.js$/,
-            exclude: /node_modules/
+            }
          }
       ]
    }
