@@ -1291,6 +1291,10 @@ a {
    }
    }
 
+.primary-nav a.is-current-link {
+         color: #fabb69;
+      }
+
 .reveal-item {
    opacity: 0;
    transition: all 1.5s ease-out;
