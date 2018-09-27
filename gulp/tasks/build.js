@@ -13,8 +13,7 @@ gulp.task('optimizeImages' ['deleteDistFolder'], function() {
       .pipe(imagemin() {
          progressive: true,
          interlaced: true,
-         multipass: true
-      })
+         multipass: true})
       .pipe(gulp.dest("./dist/assets/images"));
 });
 
