@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "jquery": "^3.3.1",
-    "jquery-smooth-scroll": "^2.2.0",
-    "lazysizes": "^4.1.2",
-    "normalize.css": "^8.0.0",
-    "waypoints": "^4.0.1"
+    "normalize.css": "^8.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^8.5.0",
