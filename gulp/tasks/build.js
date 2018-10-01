@@ -9,12 +9,13 @@ browserSync = require('browser-sync').create();
 
 
 
-gulp.task('prewiewDist' function() {
+gulp.task('previewDist', function() {
      browserSync.init({
         notify: false,
         server: {
            baseDir: "docs"
         }
+    });
 });
 
 gulp.task('deleteDistFolder', ['icons'], function() {
