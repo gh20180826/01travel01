@@ -21,5 +21,4 @@ gulp.task('optimizeImages' ['deleteDistFolder'], function() {
 
 
 
-
 gulp.task('build', ['optimizeImages']);
